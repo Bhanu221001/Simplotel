@@ -1,0 +1,194 @@
+#navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(252, 75, 56);
+    height: 40px;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#navbar li:hover{
+    color: white;
+}
+#main{
+    display: flex;
+}
+#imagesec{
+    width: 50%;
+}
+#image{
+height: 703px;
+width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#menuimg{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 80px;
+}
+#text h1{
+    letter-spacing: 10px;
+    font-family:monospace;
+    font-size: 50px;
+}
+#text{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 50%;
+}
+#text p{
+    margin-top: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    line-height: 25px;
+}
+#text button{
+    width: 160px;
+    height: 30px;
+    font-size: 15px;
+    background-color:  rgb(252, 75, 56);
+    border: hidden;
+    color: aliceblue;
+    margin-top: 100px;
+}
+#section1{
+    background-image: linear-gradient(to left,violet,rgb(246, 195, 203),rgb(253, 253, 148));
+}
+#section2imgsec{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    width: 50%;
+}
+#img1{
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+#img2{
+    width: 300px;
+    height: 610px;
+    margin-left: 20px;
+}
+#img3{
+    height: 300px;
+    width: 300px;
+    margin-top: -300px;
+    margin-left: 50px;
+}
+#section2text{
+    background-color:  rgb(252, 75, 56);
+    margin-left: 750px;
+    margin-top: -400px;
+    margin-right: 40px;
+}
+#section2text h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 10px;
+}
+#section2text p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#click{
+    padding-bottom: 10px;
+}
+#arrow{
+    position: relative;
+    top: 10px;
+    left: 3px;
+}
+#section2{
+    background-image: linear-gradient(150deg,rgb(246, 246, 102),pink,rgb(171, 24, 171));
+    padding-top: 110px;
+    margin-top: 5px;
+    height: 100vh;
+    width: 100%;
+}
+@media screen and (min-width:200px) and (max-width :670px) {
+    #navbar{
+        background-color:rgb(252, 75, 56);
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+    #menuimg{
+        display: none;
+    }
+    #navbar li:hover{
+        color: bisque;
+    }
+    #text h1{
+        width: 2rem;
+    }
+    *{
+        margin: 0;
+        border: 0;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+    #imagesec{
+        margin-top: 100px;
+        width: 100%;
+    }
+    #image{
+        height: 300px;
+    }
+    #section2imgsec{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #img1{
+        width: 100%;
+        height: 300px;
+        margin-left: -1px;
+        margin-top: -100px;
+    }
+    #img2{
+        width: 100%;
+        margin-left: -1px;
+        margin-top: 10px;
+        height: 300px;
+    }
+    #img3{
+        width: 100%;
+        margin-left: -1px;
+        margin-top: 10px;
+        height: 300px;
+    }
+    #section2text{
+        width: 100%;
+        background-color: rgb(252, 75, 56);
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+}
+@media screen  and (min-width:671px) and (max-width:950px){
+    #menuimg{
+        margin-left: 100px;
+    }
+    #section2text{
+        margin-top: 10px;
+        width: 500px;
+        margin-left: 120px;
+    }
+    #text button{
+        margin-top: 25px;
+    }
+}
+
